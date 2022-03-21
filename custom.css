@@ -1,0 +1,173 @@
+/* BASE SETTINGS */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+body { 
+  font-family:'Roboto', sans-serif;
+	background-color: #F5F5F5;
+}
+.footer {
+  color: #2A2A2A;
+  background-color: #000000;
+  box-shadow: 0px 500px 0px 500px #000000;
+}
+@media (max-width: 991.98px) {
+	.main-container {
+		max-width: 100%;
+	}
+}
+
+
+/* SECTION FORMATTING */
+.section {
+	width: 100%;
+	max-width: 100%;
+	padding: 20px 40px;
+}
+.section-light {
+	background: #FFFFFF;
+}
+.section-light-grey {
+	background: #F1F1F1;
+}
+.section-dark {
+	color: #A1A1A6;
+	background: #1E1E1E;
+}
+.section-dark p,
+.section-dark h1 {
+	color: #A1A1A6;
+}
+.section-dark h2,
+.section-dark h3, 
+.section-dark h4, 
+.section-dark h5,
+.section-dark h6 {
+	color: #F5F5F7;
+}
+.section-black {
+	background: #000000;
+}
+.section-dark-grey {
+	background: #1E1E1E;
+}
+
+
+/* GLOBAL SECTION ELEMENTS */
+@media (min-width: 768px) {
+	.section-main-content {
+		border-left: 1px solid #cccccc;
+		border-right: 1px solid #cccccc;
+	}
+}
+.section-no-padding {
+	padding-left: 0;
+	padding-right: 0;
+}
+.section-navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+/* TEXT SIZES */
+h1 {
+	font-size: 22px;
+	font-style: italic;
+	font-weight: normal;
+	color: #808080;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	line-height: 1.2em;
+	text-align: center;
+}
+h2 {
+	font-size: 42px;
+	font-weight: 900;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	line-height: 1.2em;
+	text-align: center;
+}
+h3 {
+	font-size: 22px;
+	font-weight: 700;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	line-height: 1.2em;
+	text-align: center;
+}
+h4 {
+	font-size: 22px;
+	font-weight: 700;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	line-height: 1.2em;
+	text-align: center;
+}
+p {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	color: #2A2A2A;
+}
+h1, h2, h3, h4, h5, h6, p {
+	max-width: 800px; 
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+/* TEXT ALIGNMENT */
+.text-center,
+.text-center h1,
+.text-center h2,
+.text-center h3,
+.text-center h4, 
+.text-center h5,
+.text-center h6,
+.text-center p {
+	text-align: center !important;
+}
+.text-left,
+.text-left h1,
+.text-left h2,
+.text-left h3,
+.text-left h4,
+.text-left h5,
+.text-left h6,
+.text-left p {
+	text-align: left !important;
+}
+.text-right,
+.text-right h1,
+.text-right h2,
+.text-right h3,
+.text-right h4,
+.text-right h5,
+.text-right h6,
+.text-right p {
+	text-align: right !important;
+}
+
+
+/* TEXT COLORS */
+strong {
+	color: #000000;
+}
+.section-dark strong {
+	color: #FFFFFF;
+}
+.text-muted {
+	color: #B5B5B5 !important;
+}
+.section-dark .text-muted {
+	color: #555555 !important;
+}
+
+
+/* THEME COLORS */
+.border-top-primary {
+	border-top: 10px solid #10A0A3;
+}
+.border-bottom-primary {
+	border-bottom: 10px solid #10A0A3;
+}
