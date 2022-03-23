@@ -52,10 +52,13 @@ body {
 
 
 /* GLOBAL SECTION ELEMENTS */
+.section-main-content {
+  background-color: #FFFFFF;
+}
 @media (min-width: 768px) {
 	.section-main-content {
-		border-left: 1px solid #cccccc;
-		border-right: 1px solid #cccccc;
+		border-left: 1px solid #CCCCCC;
+		border-right: 1px solid #CCCCCC;
 	}
 }
 .section-no-padding {
